@@ -1,3 +1,11 @@
+title: DevOps - Getting Started
+author:
+  name: Fazreil Amreen
+  twitter: fab52
+  url: https://www.facebook.com/fazreil/
+output: presentation.html
+controls: true
+
 ---
 
 # 1.0 Intro to DevOps
@@ -27,7 +35,7 @@ It is always recomended to tackle DevOps step by step. The following topics desc
 Version control set up the chronology of the work being done. By versioning the work, we are able to:
 - capture a snapshot and rollback our work to a previous version.
 - form a collaborative workplace
- popular version control system: GIT, subversion, IBM clearcase and cvs 
+ popular version control system: GIT, subversion, IBM clearcase and cvs
 
 ---
 
@@ -42,7 +50,7 @@ Version control set up the chronology of the work being done. By versioning the 
 
 ### 2.1.2 collaborative workplace
 
-- Having branches allow development effort to be modularized. 
+- Having branches allow development effort to be modularized.
 - The same code can be shared among multiple teams, each contributing to their own branches
 - Each contributor may review other's code. (peer review/codereview)
 
@@ -59,7 +67,7 @@ Version control set up the chronology of the work being done. By versioning the 
 
 ## 2.3 Centralized Build
 
-- Builds are compiled codes 
+- Builds are compiled codes
 - Builds from different machines could be inconsistent between each other
 - because they may inherit local environment variables
 - have a centralized build to build out of Develop branch (bleeding edge) and master/main (stable)
@@ -83,9 +91,9 @@ Version control set up the chronology of the work being done. By versioning the 
 ## 2.5 Build Bakery
 
  Maturing in all previous aspects will lead to continuous integration and continuous delivery (cicd)
- 
+
  Reaching Build Bakery makes you able to see rapid development, where you are able to see changes in codes to be reflected in deployment and feedback to the development team.
- 
+
 ---
 
 # 3.0 Additional (cool things) in DevOps
@@ -99,7 +107,7 @@ Version control set up the chronology of the work being done. By versioning the 
 ## 3.1 DevTestOps
 
  DevTestOps introduces test automation in various aspects like the unit test, functional tests, Ui testing.
- 
+
  Sone testing tools which are popular are selenium, Junit, cucumber JS
 
 ---
@@ -107,13 +115,13 @@ Version control set up the chronology of the work being done. By versioning the 
 ## 3.2 DevSecOps
 
  DevSecOps enhance the security of the software being build and also the infrastructure.
- 
+
  static analysis (SAST) could be performed at the source code level to detect poorly written codes.
- 
+
  Dynamic analysis (DAST) could be performed at deplayed environment to assess the security in term of vulnerability.
- 
- popular tools most DevSecOps use are: SonarQube, Snyk, 
- 
+
+ popular tools most DevSecOps use are: SonarQube, Snyk,
+
 ---
 
 ## 3.3 DevDataOps
@@ -127,7 +135,7 @@ https://github.com/fazreil/DevOpsNotes.git
 ## 3.4 Agile
 
  All these tools and maturity in technical capabilities are best when they are being implemented in an organization that coordinated and in sync with the whole organization.
- 
+
  Modern software houses implement Agile In managing both stakeholders, engineers and everybody that participate in producing the product
- 
+
 ---
