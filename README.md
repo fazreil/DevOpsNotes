@@ -16,7 +16,7 @@ controls: true
 
 ---
 
-<put the Devops lifecycle here />
+<img src="images/continuous-development-visual.png">
 
 ---
 
@@ -24,13 +24,21 @@ controls: true
 
 ---
 
+I listed stages below for the roadmap to reach DevOps maturity
+
+1. Version control
+1. Build mechanism
+1. Centralized build
+1. Infrastructure provisioning
+1. Build bakery
+
+---
+
 It is always recomended to tackle DevOps step by step. The following topics describe how to tackle DevOps from infancy to its maturity.
 
 ---
 
-## 2.1 Version Control
-
----
+### 2.1 Version Control
 
 Version control set up the chronology of the work being done. By versioning the work, we are able to:
 - capture a snapshot and rollback our work to a previous version.
@@ -39,7 +47,7 @@ Version control set up the chronology of the work being done. By versioning the 
 
 ---
 
-### 2.1.1 Tags, Branches, commits, merges
+#### 2.1.1 Tags, Branches, commits, merges
 
 - Branches: workstream to perform work. Common practise has main/master, develop, hotfix, feature branches
 - commits: a contribution to the branches
@@ -48,7 +56,7 @@ Version control set up the chronology of the work being done. By versioning the 
 
 ---
 
-### 2.1.2 collaborative workplace
+#### 2.1.2 collaborative workplace
 
 - Having branches allow development effort to be modularized.
 - The same code can be shared among multiple teams, each contributing to their own branches
@@ -56,7 +64,7 @@ Version control set up the chronology of the work being done. By versioning the 
 
 ---
 
-## 2.2 Build Mechanism
+### 2.2 Build Mechanism
 
 - Code compilation should be structured
 - they may be configurable
@@ -65,7 +73,7 @@ Version control set up the chronology of the work being done. By versioning the 
 
 ---
 
-## 2.3 Centralized Build
+### 2.3 Centralized Build
 
 - Builds are compiled codes
 - Builds from different machines could be inconsistent between each other
@@ -77,7 +85,7 @@ Version control set up the chronology of the work being done. By versioning the 
 
 ---
 
-## 2.4 Infrastructure provisioning
+### 2.4 Infrastructure provisioning
 
 - Modern software infrastructure has enabled methods to recreate or modify itself by using various provisioning tools.
 - we used to write elaborated scripts to instruct the infrastructure to perform changes
@@ -88,7 +96,7 @@ Version control set up the chronology of the work being done. By versioning the 
 
 ---
 
-## 2.5 Build Bakery
+### 2.5 Build Bakery
 
  Maturing in all previous aspects will lead to continuous integration and continuous delivery (cicd)
 
@@ -104,7 +112,7 @@ Version control set up the chronology of the work being done. By versioning the 
 
 ---
 
-## 3.1 DevTestOps
+### 3.1 DevTestOps
 
  DevTestOps introduces test automation in various aspects like the unit test, functional tests, Ui testing.
 
@@ -112,7 +120,7 @@ Version control set up the chronology of the work being done. By versioning the 
 
 ---
 
-## 3.2 DevSecOps
+### 3.2 DevSecOps
 
  DevSecOps enhance the security of the software being build and also the infrastructure.
 
@@ -124,18 +132,20 @@ Version control set up the chronology of the work being done. By versioning the 
 
 ---
 
-## 3.3 DevDataOps
+### 3.3 DevDataOps
 
  Throughout development the structure of the data in database evolves by introducing new fields and tables. Migrating and rolling back changes is a critical aspect.
-https://github.com/fazreil/DevOpsNotes.git
+
  These data migration can be facilitated by using flyway.
 
 ---
 
-## 3.4 Agile
+### 3.4 Agile
 
  All these tools and maturity in technical capabilities are best when they are being implemented in an organization that coordinated and in sync with the whole organization.
 
  Modern software houses implement Agile In managing both stakeholders, engineers and everybody that participate in producing the product
 
 ---
+
+# Q&A
