@@ -17,6 +17,7 @@ controls: true
 ---
 
 <img src="images/continuous-development-visual.png">
+source: [cacoo.com](https://cacoo.com/wp-app/uploads/2021/06/continuous-development-visual.png)
 
 ---
 
@@ -39,6 +40,7 @@ It is always recomended to tackle DevOps step by step. The following topics desc
 ---
 
 <img src="images/periodictable.png" width="100%" height="100%">
+source: [businesswire](https://mms.businesswire.com/media/20200623005141/en/800268/1/Digital.ai_Periodic_Table_of_DevOps_Tools_V4.pdf)
 
 ---
 
@@ -48,6 +50,12 @@ Version control set up the chronology of the work being done. By versioning the 
 - capture a snapshot and rollback our work to a previous version.
 - form a collaborative workplace
  popular version control system: GIT, subversion, IBM clearcase and cvs
+
+---
+
+### 2.1 Version control
+
+<img src="images/periodictable-versioncontrol.png" width="100%" height="100%"/>
 
 ---
 
@@ -63,6 +71,7 @@ Version control set up the chronology of the work being done. By versioning the 
 #### 2.1.2 Branching Strategy
 
 <img src="images/branchingstrategy.png" width="100%" height="100%"/>
+source: [assets-global.website-files.com](https://assets-global.website-files.com/63733a0d32d0fd026c7b1ab1/63cc30fb5c56b2410e5a6249_e02ba62c-26e6-4250-acff-1b2c93ecc789_image-32.png)
 
 ---
 
@@ -77,6 +86,7 @@ Version control set up the chronology of the work being done. By versioning the 
 #### 2.1.4 Code Review
 
 <img src="images/commits-code-review.png" width="100%" height="100%"/>
+source: [github](https://github.com/CodeNerve/Let-Us-Java/pull/47)
 
 ---
 
@@ -95,9 +105,14 @@ Version control set up the chronology of the work being done. By versioning the 
 - Builds from different machines could be inconsistent between each other
 - because they may inherit local environment variables
 - have a centralized build to build out of Develop branch (bleeding edge) and master/main (stable)
-- These builds are meant for UAT and production deployment
 - At this stage we have enabled continuous integration
 - popular build orchestration tools are: Jenkins, travis, bitbucket pipeline, circle CI
+
+---
+
+### 2.3 Centralized build
+
+<img src="images/periodictable-buildmechanism.png" width="100%" height="100%"/>
 
 ---
 
@@ -109,6 +124,12 @@ Version control set up the chronology of the work being done. By versioning the 
 - These enables the infrastructure to bring itself down and provision itself from ground up.
 - Maturity in infrastructure provisioning will enable continuous delivery.
 - popular tools in infrastructure provisioning are: Ansible, Docker compose, Kubernetes, puppet, chef, terraform
+
+---
+
+### 2.4 Infrastructure provisioning
+
+<img src="images/periodictable-infrastructureprovisioning.png" width="100%" height="100%"/>
 
 ---
 
@@ -132,7 +153,7 @@ Version control set up the chronology of the work being done. By versioning the 
 
  DevTestOps introduces test automation in various aspects like the unit test, functional tests, Ui testing.
 
- Sone testing tools which are popular are selenium, Junit, cucumber JS
+ Some testing tools which are popular are selenium, Junit, cucumber JS
 
 ---
 
@@ -167,6 +188,12 @@ Version control set up the chronology of the work being done. By versioning the 
 ### 3.4.1 Software Development Methodologies
 
 <img src="images/Software_development_methodologies.jpg" width="100%" height="100%">
+
+---
+
+### 3.4.2 Agile framework
+
+<img src="images/SAFE-5-Essential-diagram.jpeg"  width="100%" height="100%">
 
 ---
 
