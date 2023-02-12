@@ -1,0 +1,29 @@
+{
+  "name": "devopsnotes",
+  "version": "1.0.0",
+  "description": "Notes about getting started with DevOps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cleaver README.md",
+    "watch": "cleaver watch README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fazreil/DevOpsNotes.git"
+  },
+  "keywords": [
+    "DevOps",
+    "cleaver",
+    "presentation"
+  ],
+  "author": "Fazreil Amreen",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "bugs": {
+    "url": "https://github.com/fazreil/DevOpsNotes/issues"
+  },
+  "homepage": "https://github.com/fazreil/DevOpsNotes#readme",
+  "dependencies": {
+    "cleaver": "^0.8.7"
+  }
+}
