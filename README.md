@@ -38,6 +38,10 @@ It is always recomended to tackle DevOps step by step. The following topics desc
 
 ---
 
+<img src="images/periodictable.png" width="100%" height="100%">
+
+---
+
 ### 2.1 Version Control
 
 Version control set up the chronology of the work being done. By versioning the work, we are able to:
@@ -56,11 +60,23 @@ Version control set up the chronology of the work being done. By versioning the 
 
 ---
 
-#### 2.1.2 collaborative workplace
+#### 2.1.2 Branching Strategy
+
+<img src="images/branchingstrategy.png" width="100%" height="100%"/>
+
+---
+
+#### 2.1.3 collaborative workplace
 
 - Having branches allow development effort to be modularized.
 - The same code can be shared among multiple teams, each contributing to their own branches
 - Each contributor may review other's code. (peer review/codereview)
+
+---
+
+#### 2.1.4 Code Review
+
+<img src="images/commits-code-review.png" width="100%" height="100%"/>
 
 ---
 
@@ -145,6 +161,12 @@ Version control set up the chronology of the work being done. By versioning the 
  All these tools and maturity in technical capabilities are best when they are being implemented in an organization that coordinated and in sync with the whole organization.
 
  Modern software houses implement Agile In managing both stakeholders, engineers and everybody that participate in producing the product
+
+---
+
+### 3.4.1 Software Development Methodologies
+
+<img src="images/Software_development_methodologies.jpg" width="100%" height="100%">
 
 ---
 
